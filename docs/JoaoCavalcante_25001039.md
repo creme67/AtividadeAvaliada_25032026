@@ -50,7 +50,7 @@ Justificativa: Estas escolhas garantem que a farmácia pare de perder dinheiro c
 
 # 5. Casos de Uso 
 
-![Diagrama de Casos de Uso Geral](img/diagrama_geral.png)
+![Diagrama de Casos de Uso Geral](diagrama_geral.png)
 
 # 6. Documentação dos Casos de Uso
 
@@ -81,7 +81,7 @@ Relacionamentos:
 Include: UC02, UC03.
 Extend: UC04, UC05.
 
-![Diagrama de Atividades UC01](img/uc01_atividades.png)
+![Diagrama de Atividades UC01](uc01_atividades.png)
 
 ## UC02 — Pesquisar Produto
 Ator(es): Atendente, Gerente, Farmacêutico.
@@ -104,7 +104,7 @@ Include: Nenhum.
 
 Extend: Nenhum.
 
-![Diagrama de Atividades UC02](img/uc02_atividades.png)
+![Diagrama de Atividades UC02](uc02_atividades.png)
 
 ## UC03 — Verificar Estoque
 Ator(es): Sistema.
@@ -127,7 +127,7 @@ Include: Nenhum.
 
 Extend: Nenhum.
 
-![Diagrama de Atividades UC03](img/uc03_atividades.png)
+![Diagrama de Atividades UC03](uc03_atividades.png)
 
 ## UC04 — Validar Receita Médica
 Ator(es): Farmacêutico.
@@ -148,7 +148,7 @@ Relacionamentos:
 
 Extend: Estende UC01.
 
-![Diagrama de Atividades UC04](img/uc04_atividades.png)
+![Diagrama de Atividades UC04](uc04_atividades.png)
 
 ## UC05 — Registrar Contas a Receber
 Ator(es): Sistema / Financeiro.
@@ -169,7 +169,7 @@ Relacionamentos:
 
 Extend: Estende UC01 e UC06.
 
-![Diagrama de Atividades UC05](img/uc05_atividades.png)
+![Diagrama de Atividades UC05](uc05_atividades.png)
 
 ## UC06 — Bloquear Cliente Inadimplente
 Ator(es): Sistema.
@@ -187,7 +187,7 @@ Relacionamentos:
 
 Extend: Estende UC05.
 
-![Diagrama de Atividades UC06](img/uc06_atividades.png)
+![Diagrama de Atividades UC06](uc06_atividades.png)
 
 ## UC07 — Registrar Compra de Fornecedor
 Ator(es): Gerente.
@@ -207,7 +207,7 @@ Relacionamentos:
 
 Include: UC08.
 
-![Diagrama de Atividades UC07](img/uc07_atividades.png)
+![Diagrama de Atividades UC07](uc07_atividades.png)
 
 ## UC08 — Atualizar Saldo de Estoque
 Ator(es): Sistema.
@@ -225,7 +225,7 @@ Relacionamentos:
 
 Include: Faz parte de UC01 e UC07.
 
-![Diagrama de Atividades UC08](img/uc08_atividades.png)
+![Diagrama de Atividades UC08](uc08_atividades.png)
 
 ## UC09 — Manter Cadastro de Produto
 Ator(es): Gerente.
@@ -243,7 +243,7 @@ Relacionamentos:
 
 Include: Nenhum.
 
-![Diagrama de Atividades UC09](img/uc09_atividades.png)
+![Diagrama de Atividades UC09](uc09_atividades.png)
 
 ## UC10 — Gerar Relatório de Desempenho
 Ator(es): Gerente, Administrativo.
@@ -261,6 +261,6 @@ Relacionamentos:
 
 Include: Nenhum.
 
-![Diagrama de Atividades UC10](img/uc10_atividades.png)
+![Diagrama de Atividades UC10](uc10_atividades.png)
 
 
